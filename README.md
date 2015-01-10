@@ -1,7 +1,7 @@
 
 # skiplagged-node
 
-Node.js wrapper for Skiplagged, the hidden-city travel site.
+Node.js wrapper for [Skiplagged](http://skiplagged.com), the hidden-city travel site. This library scrapes result from Skiplagged and formats + returns the raw data for you to use.
 
 ## Installation 
 ```sh
