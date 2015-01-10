@@ -39,9 +39,9 @@ sl.flights('ORD', 'JFK', '');
   "flightURL": "http://api.skiplagged.com/asplkdasddpoisakd"
 },
 {
-  "time": "5h",
-  "startTime1": "3:17pm",
-  "endTime1": "6:13pm",
+  "time": "4h",
+  "startTime1": "1:41pm",
+  "endTime1": "2:51pm",
   ...
   ...
 }]
