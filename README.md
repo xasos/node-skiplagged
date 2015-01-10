@@ -18,7 +18,7 @@ sl.flights('ORD', 'JFK', '');
 
 ## Sample response 
 ```json
-{ //sep into first and second flights 
+{
   time: "5h",
   startTime1: "3:17pm",
   endTime1: "6:13pm",
