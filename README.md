@@ -3,6 +3,8 @@
 
 Node.js wrapper for [Skiplagged](http://skiplagged.com), the hidden-city travel site. This library scrapes result from Skiplagged (the URL structure is fairly exposed) and formats the raw data for you to use.
 
+**Notice**: Not complete, under active development.
+
 ## Installation 
 ```sh
 $ npm install --save skiplagged-node 
@@ -23,7 +25,7 @@ sl.flights('ORD', 'JFK', '');
   "startTime1": "3:17pm",
   "endTime1": "6:13pm",
   "startDate": "2015-02-14",
-  startDate": "2015-02-15",
+  "startDate": "2015-02-15",
   "flightNumber1": "1432",
   "startTime2": "7:05pm",
   "endTime2": "8:50pm",
