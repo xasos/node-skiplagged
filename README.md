@@ -10,10 +10,34 @@ $ npm install --save skiplagged-node
 
 ## Usage
 ```javascript
-var skiplagged = require('skiplagged');
+var Skiplagged = require('skiplagged');
+var sl - new Skiplagged();
 
-skiplagged().flights('ORD', 'JFK', '');
+sl.flights('ORD', 'JFK', '');
 ```
+
+## Sample response 
+```json
+{ //sep into first and second flights 
+  time: "5h",
+  startTime1: "3:17pm",
+  endTime1: "6:13pm",
+  flightNumber1: "1432"
+  startTime2: "7:05pm",
+  endTime2: "8:50pm",
+  flightNumber2: "1480"
+  layoverTime: "52m",
+  startAirport: "ORD",
+  layoverAirport: "CLT",
+  endAirport: "JFK",
+  price: "106",
+  airline: "American Airlines",
+  flightURL: "http://api.skiplagged.com/asplkdasddpoisakd"
+}
+```
+
+## Uses
+There are some very cool uses for using Skiplagged data. For example, you could create a Mac OS X extension that notifies you whenever a flight is cheaper than a certain price.
 
 ## License 
 
