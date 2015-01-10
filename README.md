@@ -1,7 +1,7 @@
 
 # skiplagged-node
 
-Node.js wrapper for Skiplagged
+Node.js wrapper for Skiplagged, the hidden-city travel site.
 
 ## Installation 
 ```sh
