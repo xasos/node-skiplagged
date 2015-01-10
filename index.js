@@ -29,6 +29,7 @@ function getFlights(CONSTRUCTED_URL) {
 	this.url = CONSTRUCTED_URL;
 	request(url, function(error, response, body) {
 		if (!error && response.statusCode == 200) {
+			var $ = cheerio.load(body);
     		console.log(body) 
   		}
 	});
