@@ -1,7 +1,8 @@
 
 # skiplagged-node
 
-  Node.js wrapper for Skiplagged
+Node.js wrapper for Skiplagged
+
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
 ## Installation 
