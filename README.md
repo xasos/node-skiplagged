@@ -20,7 +20,7 @@ sl.flights('ORD', 'JFK', '');
 
 ## Sample response 
 ```json
-{
+[{
   "time": "5h",
   "startTime1": "3:17pm",
   "endTime1": "6:13pm",
@@ -37,7 +37,14 @@ sl.flights('ORD', 'JFK', '');
   "price": "106",
   "airline": "American Airlines",
   "flightURL": "http://api.skiplagged.com/asplkdasddpoisakd"
-}
+},
+{
+  "time": "5h",
+  "startTime1": "3:17pm",
+  "endTime1": "6:13pm",
+  ...
+  ...
+}]
 ```
 
 ## Uses
