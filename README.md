@@ -22,10 +22,10 @@ sl.flights('ORD', 'JFK', '');
   "time": "5h",
   "startTime1": "3:17pm",
   "endTime1": "6:13pm",
-  "flightNumber1": "1432"
+  "flightNumber1": "1432",
   "startTime2": "7:05pm",
   "endTime2": "8:50pm",
-  "flightNumber2": "1480"
+  "flightNumber2": "1480",
   "layoverTime": "52m",
   "startAirport": "ORD",
   "layoverAirport": "CLT",
