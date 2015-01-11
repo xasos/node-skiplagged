@@ -13,7 +13,7 @@ $ npm install --save skiplagged
 ## Usage
 ```javascript
 var Skiplagged = require('skiplagged');
-var sl - new Skiplagged();
+var sl = new Skiplagged();
 
 sl.flights('ORD', 'JFK', '');
 ```
