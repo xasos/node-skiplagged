@@ -6,7 +6,7 @@
   "author": "Niraj Pant <nirajpant7@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/xasos/skiplagged-node.git"
+    "url": "git://github.com/xasos/node-skiplagged.git"
   },
   "dependencies": {
     "cheerio": "^0.18.0",
