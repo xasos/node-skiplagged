@@ -23,6 +23,8 @@ Skiplagged.prototype.flights = function(to, from, toDate, fromDate, opts) {
 	fromDate + '&whenBack=' + 
 	toDate + '&sort=cost';
 	//https://skiplagged.com/?src=JFK&dst=ORD&when=2015-02-24&whenBack=2015-02-26&sort=cost
+	console.log(flightUrl);
+	getFlights(flightUrl);
 };
 
 function getFlights(CONSTRUCTED_URL) {

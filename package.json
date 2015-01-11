@@ -1,6 +1,6 @@
 {
   "name": "skiplagged-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js wrapper for Skiplagged",
   "keywords": [],
   "author": "Niraj Pant <nirajpant7@gmail.com>",
@@ -9,7 +9,8 @@
     "url": "git://github.com/xasos/skiplagged-node.git"
   },
   "dependencies": {
-    "cheerio": "^0.18.0"
+    "cheerio": "^0.18.0",
+    "request": "^2.51.0"
   },
   "devDependencies": {
     "mocha": "*",
