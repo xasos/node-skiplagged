@@ -1,6 +1,6 @@
 {
   "name": "skiplagged",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "Node.js wrapper for Skiplagged",
   "keywords": [],
   "author": "Niraj Pant <nirajpant7@gmail.com>",
