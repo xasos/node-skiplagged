@@ -7,7 +7,7 @@ Node.js wrapper for [Skiplagged](http://skiplagged.com), the hidden-city travel 
 
 ## Installation 
 ```sh
-$ npm install --save skiplagged-node 
+$ npm install --save skiplagged
 ```
 
 ## Usage
