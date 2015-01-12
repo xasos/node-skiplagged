@@ -11,7 +11,7 @@ function Skiplagged() { };
  * Gets flights for a specific date and cities
  */
 Skiplagged.prototype.flights = function(to, from, toDate, fromDate) {
-	var flightUrl;
+	var flightUrl = BASE_URL;
 	// to do: standardize date
 	flightUrl += 'src?=' + 
 	from + '&dst=' + 
