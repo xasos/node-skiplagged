@@ -5,16 +5,12 @@ var request = require('request');
 
 var BASE_URL = 'https://skiplagged.com/';
 
-function Skiplagged(opts) {
-	opts = opts || {};
-};
+function Skiplagged() { };
 
 /**
  * Gets flights for a specific date and cities
  */
-Skiplagged.prototype.flights = function(to, from, toDate, fromDate, opts) {
-	opts = opts || {};
-
+Skiplagged.prototype.flights = function(to, from, toDate, fromDate) {
 	var flightUrl;
 	// to do: standardize date
 	flightUrl += 'src?=' + 
