@@ -1,6 +1,8 @@
 
 # skiplagged-node
 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+
 Node.js wrapper for [Skiplagged](http://skiplagged.com), the hidden-city travel site. This library scrapes results from Skiplagged (the URL structure is fairly exposed) and formats the raw data for you to use.
 
 **NOTICE**: Not complete, under active development.
@@ -53,3 +55,11 @@ There are some very cool uses for using Skiplagged data. For example, you could 
 ## License 
 
 [The MIT License](LICENSE)
+
+
+[npm-url]: https://npmjs.org/package/skiplagged 
+[npm-image]: https://badge.fury.io/js/skiplagged.svg
+[travis-url]: https://travis-ci.org/xasos/node-skiplagged 
+[travis-image]: https://travis-ci.org/xasos/node-skiplagged.svg?branch=master
+[daviddm-url]: https://david-dm.org/xasos/node-skiplagged.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/xasos/node-skiplagged
