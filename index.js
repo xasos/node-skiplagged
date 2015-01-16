@@ -10,25 +10,27 @@ function Skiplagged() { };
 /**
  * Gets flights for a specific date and cities
  */
-Skiplagged.prototype.flights = function(to, from, toDate, fromDate) {
+Skiplagged.prototype.flights = function(from, to, when, whenBack) {
 	var flightUrl = BASE_URL;
 	// to do: standardize date
-	flightUrl += 'src?=' + 
+	flightUrl += '?src=' + 
 	from + '&dst=' + 
 	to + '&when=' + 
-	fromDate + '&whenBack=' + 
-	toDate + '&sort=cost';
-	//https://skiplagged.com/?src=JFK&dst=ORD&when=2015-02-24&whenBack=2015-02-26&sort=cost
-	console.log(flightUrl);
+	when + '&whenBack=' + 
+	whenBack + '&sort=cost';
+	
 	getFlights(flightUrl);
 };
 
 function getFlights(url) {
-	this.url = url;
 	request(url, function(error, response, body) {
 		if (!error && response.statusCode == 200) {
 			var $ = cheerio.load(body);
-    			console.log(body) 
+    		console.log(body);
+			return body; 
+  		} 
+  		else {
+  			return error;
   		}
 	});
 }

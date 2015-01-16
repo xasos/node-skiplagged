@@ -38,7 +38,8 @@ sl.flights('ORD', 'JFK', '2015-02-24', '2015-02-26');
   "endAirport": "JFK",
   "price": "106",
   "airline": "American Airlines",
-  "flightURL": "http://api.skiplagged.com/asplkdasddpoisakd"
+  "flightURL": "http://api.skiplagged.com/asplkdasddpoisakd",
+  "tripLength": "3d"
 },
 {
   "time": "4h",
