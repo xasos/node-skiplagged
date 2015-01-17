@@ -51,7 +51,7 @@ sl.flights('ORD', 'JFK', '2015-02-24', '2015-02-26');
 ```
 
 ## Uses
-There are some very cool uses for using Skiplagged data. For example, you could create a Mac OS X extension that notifies you whenever a flight is cheaper than a certain price.
+There are some very interesting uses for using Skiplagged data. For example, you could create a Mac OS X extension that notifies you whenever a flight is at a desired price.
 
 ## License 
 
