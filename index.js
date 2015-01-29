@@ -12,7 +12,8 @@ function Skiplagged() { };
  */
 Skiplagged.prototype.flights = function(from, to, when, whenBack) {
 	var flightUrl = BASE_URL;
-	// to do: standardize date
+	
+        // Construct URL for request
 	flightUrl += '?src=' + 
 	from + '&dst=' + 
 	to + '&when=' + 
