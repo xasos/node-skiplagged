@@ -27,7 +27,7 @@ sl.flights('ORD', 'JFK', '2015-02-24', '2015-02-26');
   "startTime1": "3:17pm",
   "endTime1": "6:13pm",
   "startDate": "2015-02-14",
-  "startDate": "2015-02-15",
+  "endDate": "2015-02-15",
   "flightNumber1": "1432",
   "startTime2": "7:05pm",
   "endTime2": "8:50pm",
